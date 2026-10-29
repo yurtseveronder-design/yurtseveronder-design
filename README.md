@@ -1,4 +1,4 @@
-# Hi there, I'm Önder 👋
+# Hi there, I'm Onder 👋
 
 ### 🚀 QA Automation Engineer & AI Evaluation Specialist
 Available for global remote freelance contracts, project work, and international collaboration.
@@ -12,7 +12,7 @@ Available for global remote freelance contracts, project work, and international
 
 ---
 
-### **What We Deliver**
+### **What Can Deliver**
 * **Production-Grade Code:** Modular Python automation and testing frameworks backed by GitHub Actions.
 * **Real-Time Telemetry & Reports:** Automated SQLite logging tracking latency, token cost efficiency, and drift detection.
 * **Safety & Security Audits:** Structured evaluation reports measuring prompt injection resistance and guardrail strength.
