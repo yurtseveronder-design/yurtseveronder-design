@@ -1,12 +1,21 @@
-Hi there, I'm Önder 👋
+# Hi there, I'm Önder 👋
 
 ### 🚀 QA Automation Engineer & AI Evaluation Specialist
-I design and implement scalable automation frameworks using **Python**, **Pytest**, and **Docker**, complemented by production-grade LLM evaluation infrastructure, multi-agent telemetry, and RLHF alignment pipelines.
+Available for global remote freelance contracts, project work, and international collaboration.
 
 ---
 
-### 🛠️ Technical Stack & Expertise
-* **Automation & Languages:** Python 3.11, Pytest, Requests
-* **AI Engineering & MLOps:** LLM Evaluation, RAG Faithfulness, Security Red-Teaming, Multi-Agent Trace Loops, RLHF & Bradley-Terry Reward Modeling
-* **CI/CD & DevOps:** GitHub Actions, Docker, Git
-* **Architecture & Design:** Modular Frameworks, SQLite Telemetry, Streamlit Dashboards, PEP 8 Standards
+### **Core Technical Stack**
+* **Automation & QA:** Python, Pytest, Requests, CI/CD Pipelines
+* **AI Engineering & MLOps:** LLM Evaluation, RAG Faithfulness, Security Red-Teaming, SQLite Telemetry & Reward Modeling
+* **Operations:** Trilingual communication, remote-ready flexibility, and end-to-end task execution
+
+---
+
+### **What We Deliver**
+* **Production-Grade Code:** Modular Python automation and testing frameworks backed by GitHub Actions.
+* **Real-Time Telemetry & Reports:** Automated SQLite logging tracking latency, token cost efficiency, and drift detection.
+* **Safety & Security Audits:** Structured evaluation reports measuring prompt injection resistance and guardrail strength.
+
+---
+*Open for remote project work and technical collaborations. Let's build reliable, scalable systems.*
