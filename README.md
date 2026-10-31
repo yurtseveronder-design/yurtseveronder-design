@@ -1,7 +1,6 @@
 # Hi there, I'm Onder 👋
 
-### 🚀 QA Automation Engineer & AI Evaluation Specialist
-Available for global remote freelance contracts, project work, and international collaboration.
+Building production-grade AI infrastructure, multi-lingual RAG systems, and automated evaluation harnesses for TR/ES/EN localization QA and AI data operations.
 
 ---
 
