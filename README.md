@@ -11,7 +11,7 @@ Software Quality Engineer specializing in **AI QA, Prompt Engineering, and Test 
 
 ### 🚀 Highlighted Projects
 * [sentinel-ui](https://github.com/yurtseveronder-design/sentinel-ui): AI security guardrail and semantic vector retrieval tool featuring custom cosine-similarity retrieval and Pytest test suites.
-* [api_tests](https://github.com/yurtseveronder-design/api_tests): Production-grade API test automation framework built with Pytest, robust negative testing, and Allure reporting.
+* [api_tests](https://github.com/yurtseveronder-design/api_tests): API test automation framework built with Pytest, robust negative testing, and Allure reporting.
 * [PromptEngineering-toolkit](https://github.com/yurtseveronder-design/PromptEngineering-toolkit): Lightweight Python utilities for prompt experiments and security checks.
 
 Focused on remote roles in AI QA and Test Automation.
