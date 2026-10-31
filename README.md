@@ -1,6 +1,5 @@
-# Hi there, I'm Onder 👋
+AI Data Operations & Multi-Lingual Localization QA (TR/ES/EN) | LLM Evaluation Harnesses & Prompt Engineering | Building Production-Grade AI Systems
 
-Building production-grade AI infrastructure, multi-lingual RAG systems, and automated evaluation harnesses for TR/ES/EN localization QA and AI data operations.
 
 ---
 
