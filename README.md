@@ -14,5 +14,5 @@ Software Quality Engineer specializing in **AI QA, Prompt Engineering, and Test 
 * [api_tests](https://github.com/yurtseveronder-design/api_tests): Production-grade API test automation framework built with Pytest, robust negative testing, and Allure reporting.
 * [PromptEngineering-toolkit](https://github.com/yurtseveronder-design/PromptEngineering-toolkit): Lightweight Python utilities for prompt experiments and security checks.
 
----
-📫 **How to reach me:** Focused on remote roles in AI QA and Test Automation. Let's connect!
+Focused on remote roles in AI QA and Test Automation.
+yurtsever.onder@gmail.com
