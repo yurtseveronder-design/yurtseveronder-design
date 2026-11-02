@@ -15,4 +15,5 @@ Software Quality Engineer specializing in **AI QA, Prompt Engineering, and Test 
 * [PromptEngineering-toolkit](https://github.com/yurtseveronder-design/PromptEngineering-toolkit): Lightweight Python utilities for prompt experiments and security checks.
 
 Focused on remote roles in AI QA and Test Automation.
-yurtsever.onder@gmail.com
+https://www.fiverr.com/s/WebeP25
+
