@@ -1,6 +1,9 @@
 I'm Onder Yurtsever
 
-Software Quality Engineer specializing in **AI QA, Prompt Engineering, and Test Automation**. I build reliable testing pipelines and practical AI validation tools with a focus on code quality, transparency, and practical depth.
+Self-Taught Python QA & Test Automation Specialist.
+
+**AI QA, Prompt Engineering, and Test Automation**. 
+I build reliable testing pipelines and practical AI validation tools with a focus on code quality, transparency, and practical depth.
 
 ---
 
