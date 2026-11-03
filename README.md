@@ -2,9 +2,12 @@
 
 Self-Taught Python QA & Test Automation Specialist. 
 
-I focus on building reliable testing pipelines, practical AI validation tools, and clean architectures with a strong emphasis on quality, transparency, and real-world depth.
+​🧪 api_tests: The digital crash-test dummy making sure our API connections don't explode.
+⚡ rag-perf-bench: The quantum speedometer proving our AI actually reads the docs instead of making stuff up.
+🛡️ prompt-shield-tester: The AI bouncer throwing out hackers trying to jailbreak the model with base64 sorcery.
+🎛️ sentinel-ui: The cockpit dashboard so we can watch the AI think in real time without flying blind.
 
-#### 🛠️ Core Tech Stack & Tools
+Core Tech Stack & Tools
 * **Languages & Core:** Python, SQL, Git
 * **Testing & QA:** Pytest, API Testing, Allure Reports, CI/CD Integration
 * **AI & LLM Tools:** Vector Retrieval (Cosine Similarity), RAG Guardrails, Security Filters
