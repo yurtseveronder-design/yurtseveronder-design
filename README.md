@@ -1,20 +1,18 @@
+### Hi there, I'm Onder 👋
 
-Self-Taught Python QA & Test Automation Specialist.
+Self-Taught Python QA & Test Automation Specialist. 
 
-*AI QA, and Test Automation**. 
-I build reliable testing pipelines and practical AI validation tools with a focus on code quality, transparency, and practical depth.
+I focus on building reliable testing pipelines, practical AI validation tools, and clean architectures with a strong emphasis on quality, transparency, and real-world depth.
 
-Core Stack & Skills
-*AI & LLM Tools:** Vector Retrieval (Cosine Similarity), RAG Guardrails, Security Filters
-*Test Automation & QA:** Python, Pytest, API Testing, Allure Reports, CI/CD Integration
-*Languages & Core:** Python, SQL, Git
+#### 🛠️ Core Tech Stack & Tools
+* **Languages & Core:** Python, SQL, Git
+* **Testing & QA:** Pytest, API Testing, Allure Reports, CI/CD Integration
+* **AI & LLM Tools:** Vector Retrieval (Cosine Similarity), RAG Guardrails, Security Filters
 
-Highlighted Projects
-* [sentinel-ui](https://github.com/yurtseveronder-design/sentinel-ui)
-  AI security guardrail and semantic vector retrieval tool featuring custom cosine-similarity retrieval and Pytest test suites.
-* [api_tests](https://github.com/yurtseveronder-design/api_tests)
-  API test automation framework built with Pytest, robust negative testing, and Allure reporting.
+#### 🚀 Featured Projects
+* **[rag-perf-bench](https://github.com/yurtseveronder-design/rag-perf-bench):** Lightweight RAG testing tool evaluating retrieval metrics and cognitive resonance.
+* **[prompt-shield-tester](https://github.com/yurtseveronder-design/prompt-shield-tester):** Bio-inspired adaptive security layer testing prompt injection resilience.
+* **[sentinel-ui](https://github.com/yurtseveronder-design/sentinel-ui):** Agentic UI layer featuring custom vector retrieval and security guardrails.
+* **[api_tests](https://github.com/yurtseveronder-design/api_tests):** Robust REST API automation framework with Pydantic contracts and automated CI/CD.
 
-Focused on remote roles in AI QA and Test Automation.
-https://www.fiverr.com/s/WebeP25
-
+Let’s connect and build reliable systems!
