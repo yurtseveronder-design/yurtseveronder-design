@@ -1,20 +1,44 @@
-### Hi there, I'm Onder 👋
+# Hi there, I'm Onder Yurtsever 👋
 
-Python QA & Test Automation Specialist. 
+QA Automation| AI & RAG Systems
 
-​🧪 api_tests: The digital crash-test dummy making sure our API connections don't explode.
+Welcome to my GitHub profile!
+Currently, my focus is bridging the gap between traditional robust software testing and modern **Artificial Intelligence, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG)** workflows.
 
-⚡ rag-perf-bench: The quantum speedometer proving our AI actually reads the docs instead of making stuff up.
+---
 
-🛡️ prompt-shield-tester: The AI bouncer throwing out hackers trying to jailbreak the model with base64 sorcery.
+### 💡 Core Expertise & Tech Stack
 
-🎛️ sentinel-ui: The cockpit dashboard so we can watch the AI think in real time without flying blind.
+* **Languages & Scripting:** Python, JavaScript / TypeScript, SQL
+* **Backend & AI Architecture:** FastAPI, Custom Vector Retrieval, RAG Pipelines, Local JSON Persistence
+* **QA Automation & Testing:** `pytest`, API Contract Validation, Schema Validation, End-to-End Test Automation
+* **CI/CD & DevOps:** GitHub Actions CI, Automated Test Execution Pipelines
+* **AI Tooling & Evaluation:** LLM Evaluation Frameworks (`llm_eval`), Prompt Injection Defense & Security Guardrails
 
-Core Tech Stack & Tools
-* **Languages & Core:** Python, SQL, Git
-* **Testing & QA:** Pytest, API Testing, Allure Reports, CI/CD Integration
-* **AI & LLM Tools:** Vector Retrieval (Cosine Similarity), RAG Guardrails, Security Filters
+---
 
-## Featured Projects
-* **[ai-sentinel](https://github.com/yurtseveronder-design/ai-sentinel)**: A lightweight security shield and input analysis framework designed to intercept, normalize, and inspect prompts before they reach AI models.
-* **[api_tests](https://github.com/yurtseveronder-design/api_tests)**: Automated API testing frameworks built for reliability and regression prevention.
+### 🛠️ Featured Projects
+
+* **[Sentinel RAG UI](https://github.com/yurtseveronder-design/sentinel-ui)**
+  * *What it is:* A secure RAG application featuring a FastAPI backend, custom vector retrieval (`VectorRetriever`), security guardrails against prompt injection, and local JSON persistence.
+  * *Testing & CI:* Fully backed by a robust `pytest` suite integrated with GitHub Actions CI.
+
+* **[LLM Evaluation Pipeline (`llm_eval`)](https://github.com/yurtseveronder-design/llm_eval)**
+  * *What it is:* An automated validation and testing pipeline designed to evaluate non-deterministic LLM interactions, synthetic vs. organic data flows, and robust schema enforcement.
+  * *Features:* Multi-auth `APIClient` supporting Bearer tokens, API Key headers, and Basic Auth.
+
+---
+
+### 📊 GitHub Stats & Activity
+
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yurtseveronder-design&show_icons=true&theme=radical&hide_border=true" />
+</p>
+
+---
+
+### 📬 Connect With Me
+
+* **GitHub:** [@yurtseveronder-design](https://github.com/yurtseveronder-design)
+* **X (Twitter):** [@ondalhf](https://x.com/ondalhf)
+* 
