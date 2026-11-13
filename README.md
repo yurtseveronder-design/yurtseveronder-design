@@ -15,19 +15,6 @@ Currently, my focus is bridging the gap between traditional robust software test
 * **CI/CD & DevOps:** GitHub Actions CI, Automated Test Execution Pipelines
 * **AI Tooling & Evaluation:** LLM Evaluation Frameworks (`llm_eval`), Prompt Injection Defense & Security Guardrails
 
----
-
-### 🛠️ Featured Projects
-
-* **[Sentinel RAG UI](https://github.com/yurtseveronder-design/sentinel-ui)**
-  * *What it is:* A secure RAG application featuring a FastAPI backend, custom vector retrieval (`VectorRetriever`), security guardrails against prompt injection, and local JSON persistence.
-  * *Testing & CI:* Fully backed by a robust `pytest` suite integrated with GitHub Actions CI.
-
-* **[LLM Evaluation Pipeline (`llm_eval`)](https://github.com/yurtseveronder-design/llm_eval)**
-  * *What it is:* An automated validation and testing pipeline designed to evaluate non-deterministic LLM interactions, synthetic vs. organic data flows, and robust schema enforcement.
-  * *Features:* Multi-auth `APIClient` supporting Bearer tokens, API Key headers, and Basic Auth.
-
----
 
 ### 📊 GitHub Stats & Activity
 
