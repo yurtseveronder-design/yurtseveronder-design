@@ -1,31 +1,37 @@
-# Hi there, I'm Onder Yurtsever 👋
+# Hi, I'm Onder Yurtsever 👋
 
-QA Automation| AI & RAG Systems
+**QA Automation · AI & RAG Systems**
 
-Welcome to my GitHub profile!
-Currently, my focus is bridging the gap between traditional robust software testing and modern **Artificial Intelligence, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG)** workflows.
-
----
-
-### 💡 Core Expertise & Tech Stack
-
-* **Languages & Scripting:** Python, JavaScript / TypeScript, SQL
-* **Backend & AI Architecture:** FastAPI, Custom Vector Retrieval, RAG Pipelines, Local JSON Persistence
-* **QA Automation & Testing:** `pytest`, API Contract Validation, Schema Validation, End-to-End Test Automation
-* **CI/CD & DevOps:** GitHub Actions CI, Automated Test Execution Pipelines
-* **AI Tooling & Evaluation:** LLM Evaluation Frameworks (`llm_eval`), Prompt Injection Defense & Security Guardrails
-
-
-### 📊 GitHub Stats & Activity
-
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yurtseveronder-design&show_icons=true&theme=radical&hide_border=true" />
-</p>
+I bridge robust software testing and LLM / RAG workflows: building guardrails for AI systems, and the test harness that proves they work.
 
 ---
 
-### 📬 Connect With Me
+### 🧩 One system, four repos
 
-* **GitHub:** [@yurtseveronder-design](https://github.com/yurtseveronder-design)
-* **X (Twitter):** [@ondalhf](https://x.com/ondalhf)
-* 
+```
+client ──▶ sentinel-ui ──▶ ai-sentinel ──▶ sentinel-semantic
+           (gateway/auth)   /v1/scan        /api/v1/semantic/analyze
+                              (guardrails)   (intent + filters)
+
+                        api_tests = contract + end-to-end suite for all three
+```
+
+| Repo | Role |
+|---|---|
+| [ai-sentinel](https://github.com/yurtseveronder-design/ai-sentinel) | Prompt-security gateway: scans prompts, applies guardrail profiles |
+| [sentinel-semantic](https://github.com/yurtseveronder-design/sentinel-semantic) | Semantic layer: intent routing, filter extraction, jailbreak intent detection |
+| [sentinel-ui](https://github.com/yurtseveronder-design/sentinel-ui) | Auth + inference gateway that delegates guardrail decisions to ai-sentinel |
+| [api_tests](https://github.com/yurtseveronder-design/api_tests) | pytest framework: Pydantic contracts, unit tests, full-stack e2e in CI |
+
+### 🛠 Tech
+
+* **Language:** Python
+* **Backend:** FastAPI, Pydantic v2, Docker / docker-compose
+* **Testing:** pytest, API contract & schema validation, end-to-end automation, coverage gates
+* **CI/CD:** GitHub Actions (multi-repo stack checkout, Docker smoke tests, Bandit)
+* **AI:** prompt-injection defense, guardrails, RAG, embedding-based intent routing
+
+### 📬 Connect
+
+* GitHub: [@yurtseveronder-design](https://github.com/yurtseveronder-design)
+* X: [@ondalhf](https://x.com/ondalhf)
