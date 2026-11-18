@@ -12,12 +12,18 @@ I bridge robust software testing and LLM / RAG workflows: building guardrails fo
 
 ### 🧩 One system, six repos
 
-```
-client ──▶ sentinel-ui ──▶ ai-sentinel ──▶ sentinel-semantic
-           (gateway/auth)   /v1/scan        /api/v1/semantic/analyze
-                              (guardrails)   (intent + filters)
-
-                        api_tests = contract + end-to-end suite for all three
+```mermaid
+flowchart LR
+    C([Client]) --> UI[sentinel-ui<br/>auth + inference gateway]
+    UI -->|"POST /v1/scan"| AS[ai-sentinel<br/>rules + gateway protections]
+    AS -->|"/api/v1/semantic/analyze"| SS[sentinel-semantic<br/>intent + optional classifier]
+    SS --> AS
+    AS -->|ALLOW / BLOCK| UI
+    T[api_tests<br/>contract + end-to-end] -.-> UI
+    T -.-> AS
+    T -.-> SS
+    E[sentinel-eval<br/>catch rate + false blocks] -.-> AS
+    R[sentinel-rag-demo<br/>indirect injection + Colab] -.-> AS
 ```
 
 | Repo | Role |
@@ -45,6 +51,10 @@ The sets are small, so treat the figures as indicative. Method, every configurat
 [sentinel-eval](https://github.com/yurtseveronder-design/sentinel-eval/blob/main/RESULTS.md). What slips through is
 shown in [sentinel-rag-demo](https://github.com/yurtseveronder-design/sentinel-rag-demo). Threat model:
 [ai-sentinel](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/docs/THREAT_MODEL.md).
+
+What the evaluation dashboard looks like (default rules + keywords, on the 88-prompt **dev set**, which the rules were written against, so it flatters the result; the blind-set figures above are the ones to trust):
+
+![sentinel-eval dashboard](docs/eval-dashboard.png)
 
 ### 🛠 Tech
 
