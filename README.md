@@ -6,6 +6,8 @@
 
 I bridge robust software testing and LLM / RAG workflows: building guardrails for AI systems, and the test harness that proves they work.
 
+**▶ Try it free in your browser:** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yurtseveronder-design/sentinel-rag-demo/blob/main/notebooks/try_sentinel.ipynb)  ·  or run the gateway: `docker run -p 8000:8000 -e AI_SENTINEL_API_KEY=demo ghcr.io/yurtseveronder-design/ai-sentinel:latest`
+
 ---
 
 ### 🧩 One system, six repos
@@ -29,13 +31,14 @@ client ──▶ sentinel-ui ──▶ ai-sentinel ──▶ sentinel-semantic
 
 ### 📊 How well does it work? (measured 2026-11-15)
 
-On a blind set of 55 prompts the system never saw while it was being built:
+On a blind set of 55 prompts that was not used to write the rules (it has since been used to compare models, so treat the numbers as indicative):
 
 | Setup | Attacks blocked | Harmless wrongly blocked |
 |---|---|---|
 | Default (rules + keywords) | 10% | 4% |
 | With the optional trained classifier | **73%** | 8% |
 | Classifier + embeddings | **83%** | 8% |
+| Other classifier (deepset) | **93%** | 12% |
 
 The default setup stops classic English injection phrases and little else, so turn the classifier on for real use.
 The sets are small, so treat the figures as indicative. Method, every configuration and the limits:
