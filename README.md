@@ -6,7 +6,15 @@
 
 I bridge robust software testing and LLM / RAG workflows: building guardrails for AI systems, and the test harness that proves they work.
 
-**▶ Try it free in your browser:** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yurtseveronder-design/sentinel-rag-demo/blob/main/notebooks/try_sentinel.ipynb)  ·  or run the gateway: `docker run -p 8000:8000 -e AI_SENTINEL_API_KEY=demo ghcr.io/yurtseveronder-design/ai-sentinel:latest`
+**▶ Try it free in your browser:** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yurtseveronder-design/sentinel-rag-demo/blob/main/notebooks/try_sentinel.ipynb)
+
+**▶ Or run the full stack with one command** (Docker; fail-closed, local only):
+
+```bash
+curl -sL https://raw.githubusercontent.com/yurtseveronder-design/ai-sentinel/main/docker-compose.quickstart.yml | docker compose -f - up
+```
+
+For AI agents: [`capabilities.json`](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/capabilities.json) · [`openapi.json`](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/openapi.json) · [`results/latest.json`](https://github.com/yurtseveronder-design/sentinel-eval/blob/main/results/latest.json)
 
 ---
 
