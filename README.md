@@ -64,11 +64,13 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 ![sentinel-eval dashboard](docs/eval-dashboard.png)
 
+*Built with AI assistance (Claude). Every claim in these repos is backed by a test or a measured number, and the limits are stated in each README.*
+
 ### 🛠 Tech
 
 * **Language:** Python
 * **Backend:** FastAPI, Pydantic v2, Docker / docker-compose
-* **Testing:** pytest, API contract & schema validation, end-to-end automation, coverage gates
+* **Testing:** pytest, API contract & schema validation, end-to-end automation
 * **CI/CD:** GitHub Actions (multi-repo stack checkout, Docker smoke tests, Bandit)
 * **AI:** prompt-injection defense, guardrails, RAG, transformer classifier, embedding-based intent routing, shadow-mode rollout
 
@@ -76,5 +78,3 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 * GitHub: [@yurtseveronder-design](https://github.com/yurtseveronder-design)
 * X: [@ondalhf](https://x.com/ondalhf)
-
-"Built with AI assistance (Claude); every claim is tested" note to the profile and the main README
