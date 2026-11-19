@@ -76,3 +76,5 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 * GitHub: [@yurtseveronder-design](https://github.com/yurtseveronder-design)
 * X: [@ondalhf](https://x.com/ondalhf)
+
+"Built with AI assistance (Claude); every claim is tested" note to the profile and the main README
