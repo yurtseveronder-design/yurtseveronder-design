@@ -18,7 +18,7 @@ For AI agents: [`capabilities.json`](https://github.com/yurtseveronder-design/ai
 
 ---
 
-### 🧩 One system, six repos (plus two apps built on it)
+
 
 ```mermaid
 flowchart LR
@@ -66,7 +66,10 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 ![sentinel-eval dashboard](docs/eval-dashboard.png)
 
+fix/readme-credits
 *Built with AI assistance (see Acknowledgements). The numbers above are measured and dated, and each repository describes its method and limits.*
+
+main
 
 ## ⚙️ Technical Architecture & QA
 
