@@ -18,7 +18,7 @@ For AI agents: [`capabilities.json`](https://github.com/yurtseveronder-design/ai
 
 ---
 
-### 🧩 One system, six repos
+### 🧩 One system, six repos (plus two apps built on it)
 
 ```mermaid
 flowchart LR
@@ -42,29 +42,31 @@ flowchart LR
 | [api_tests](https://github.com/yurtseveronder-design/api_tests) | pytest framework: Pydantic contracts, unit tests, full-stack e2e in CI |
 | [sentinel-eval](https://github.com/yurtseveronder-design/sentinel-eval) | Benchmark: catch rate and false-block rate on dev, held-out and blind sets |
 | [sentinel-rag-demo](https://github.com/yurtseveronder-design/sentinel-rag-demo) | RAG pipeline showing indirect prompt injection and what the guard catches |
+| [sentinel-support-assistant](https://github.com/yurtseveronder-design/sentinel-support-assistant) | Demo app: a support-agent Q&A assistant guarded at input, retrieved documents and output, with 28 locked test questions |
+| [llm-testbench](https://github.com/yurtseveronder-design/llm-testbench) | Small rule-based test tool for any text-in, text-out LLM app |
 
-### 📊 How well does it work? (measured 2026-11-15)
+### 📊 How well does it work? (measured 2026-11-14; classifier rows 2026-11-15)
 
-On a blind set of 55 prompts that was not used to write the rules (it has since been used to compare models, so treat the numbers as indicative):
+Measured on a blind set of 55 prompts (ai-sentinel `a2d574c`, sentinel-semantic `1312dd5`, sentinel-ui `0346679`). The set was not used to write the rules, but it has since been used to compare models, so it is **used up**: read the numbers as indicative, not as results on unseen data.
 
 | Setup | Attacks blocked | Harmless wrongly blocked |
 |---|---|---|
 | Default (rules + keywords) | 10% | 4% |
-| With the optional trained classifier | **73%** | 8% |
-| Classifier + embeddings | **83%** | 8% |
-| Other classifier (deepset) | **93%** | 12% |
+| With the optional pretrained classifier (ProtectAI, a public model) | **73%** | 8% |
+| ProtectAI classifier + embeddings | **83%** | 8% |
+| Other pretrained classifier (deepset, a public model) | **93%** | 12% |
 
-The default setup stops classic English injection phrases and little else, so turn the classifier on for real use.
+The default setup stops classic English injection phrases and little else, The pretrained classifiers catch far more but also block more harmless prompts, so test them on your own traffic before relying on them.
 The sets are small, so treat the figures as indicative. Method, every configuration and the limits:
 [sentinel-eval](https://github.com/yurtseveronder-design/sentinel-eval/blob/main/RESULTS.md). What slips through is
 shown in [sentinel-rag-demo](https://github.com/yurtseveronder-design/sentinel-rag-demo). Threat model:
 [ai-sentinel](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/docs/THREAT_MODEL.md).
 
-What the evaluation dashboard looks like (default rules + keywords, on the 88-prompt **dev set**, which the rules were written against, so it flatters the result; the blind-set figures above are the ones to trust):
+What the evaluation dashboard looks like (default rules + keywords, on the 88-prompt **dev set**, which the rules were written against, so it flatters the result; the blind-set figures above are the better guide, with the caveat that the set is used up):
 
 ![sentinel-eval dashboard](docs/eval-dashboard.png)
 
-*Built with AI assistance (Claude). Every claim in these repos is backed by a test or a measured number, and the limits are stated in each README.*
+*Built with AI assistance (see Acknowledgements). The numbers above are measured and dated, and each repository describes its method and limits.*
 
 ## ⚙️ Technical Architecture & QA
 
