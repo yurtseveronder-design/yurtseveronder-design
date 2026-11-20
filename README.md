@@ -68,8 +68,8 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 ## ⚙️ Technical Architecture & QA
 
-- **Backend & Retrieval:** FastAPI service with `VectorRetriever`, local JSON persistence, and input/chunk/output guardrails against indirect prompt injection.
-- **Testing & CI:** Automated `pytest` regression suite (covering initialization, document ingestion, retrieval behavior, and adversarial edge cases) wired into GitHub Actions CI, with Docker / Colab environment support.
+- **Backend & Retrieval:** [sentinel-ui](https://github.com/yurtseveronder-design/sentinel-ui) is a FastAPI gateway with a `VectorRetriever` (local JSON storage) that fails closed when the guard gives no verdict. Input, retrieved-document and output guardrails against indirect prompt injection are demonstrated in [sentinel-support-assistant](https://github.com/yurtseveronder-design/sentinel-support-assistant).
+- **Testing & CI:** automated `pytest` suites run in GitHub Actions across the repos (retrieval start-up and search, jailbreak, authentication and fail-closed gateway tests). A free Colab notebook for trying the guard is in [sentinel-rag-demo](https://github.com/yurtseveronder-design/sentinel-rag-demo).
 
 ## 🤝 Acknowledgements
 
