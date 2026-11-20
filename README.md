@@ -64,7 +64,7 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 ![sentinel-eval dashboard](docs/eval-dashboard.png)
 
-*Built with AI assistance (Claude). Every claim in these repos is backed by a test or a measured number, and the limits are stated in each README.*## ⚙️ Technical Architecture & QA
+
 
 - **Backend & Retrieval:** FastAPI service with `VectorRetriever`, local JSON persistence, and input/chunk/output guardrails against indirect prompt injection.
 - **Testing & CI:** Automated `pytest` regression suite (covering initialization, document ingestion, retrieval behavior, and adversarial edge cases) wired into GitHub Actions CI, with Docker / Colab environment support.
