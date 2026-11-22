@@ -16,6 +16,8 @@ curl -sL https://raw.githubusercontent.com/yurtseveronder-design/ai-sentinel/mai
 
 For AI agents: [`capabilities.json`](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/capabilities.json) · [`openapi.json`](https://github.com/yurtseveronder-design/ai-sentinel/blob/main/openapi.json) · [`results/latest.json`](https://github.com/yurtseveronder-design/sentinel-eval/blob/main/results/latest.json)
 
+Try the prompt-injection challenge: [sentinel-arena](https://github.com/yurtseveronder-design/sentinel-arena) · [Live results](https://yurtseveronder-design.github.io/sentinel-arena/)
+
 ---
 
 
