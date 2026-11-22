@@ -70,7 +70,6 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 
 *Built with AI assistance (see Acknowledgements). The numbers above are measured and dated, and each repository describes its method and limits.*
 
-main
 
 ## ⚙️ Technical Architecture & QA
 
