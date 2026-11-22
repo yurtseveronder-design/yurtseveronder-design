@@ -44,6 +44,7 @@ flowchart LR
 | [sentinel-rag-demo](https://github.com/yurtseveronder-design/sentinel-rag-demo) | RAG pipeline showing indirect prompt injection and what the guard catches |
 | [sentinel-support-assistant](https://github.com/yurtseveronder-design/sentinel-support-assistant) | Demo app: a support-agent Q&A assistant guarded at input, retrieved documents and output, with 28 locked test questions |
 | [llm-testbench](https://github.com/yurtseveronder-design/llm-testbench) | Small rule-based test tool for any text-in, text-out LLM app |
+| [sentinel-arena](https://github.com/yurtseveronder-design/sentinel-arena) | Open challenge: submit a prompt-injection attack by pull request; CI scores it against the guard and a [public page](https://yurtseveronder-design.github.io/sentinel-arena/) shows what got through (seed set is builder-written, so not independent) |
 
 ### 📊 How well does it work? (measured 2026-11-14; classifier rows 2026-11-15)
 
