@@ -4,7 +4,7 @@
 
 **security toolkit for developers**
 
-I bridge robust software testing and LLM / RAG workflows: building guardrails for AI systems, and the test harness that proves they work.
+I bridge robust software testing and LLM / RAG workflows: building guardrails for AI systems, and the tests and test sets used to measure how well they work (and where they do not).
 
 **▶ Try it free in your browser:** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yurtseveronder-design/sentinel-rag-demo/blob/main/notebooks/try_sentinel.ipynb)
 
@@ -70,7 +70,7 @@ What the evaluation dashboard looks like (default rules + keywords, on the 88-pr
 ![sentinel-eval dashboard](docs/eval-dashboard.png)
 
 
-*Built with AI assistance (see Acknowledgements). The numbers above are measured and dated, and each repository describes its method and limits.*
+*Built with AI assistance (see Acknowledgements). The numbers above are measured and dated. The repositories that report results (ai-sentinel, sentinel-eval, sentinel-support-assistant, llm-testbench, sentinel-arena) state their limits.*
 
 
 ## ⚙️ Technical Architecture & QA
